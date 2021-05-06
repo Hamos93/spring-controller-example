@@ -20,7 +20,7 @@ public class SampleController {
 	public void home() {
 		log.info("[ SampleController home 메서드 ]");
 	}
-	
+
 	// @RequestMapping method 속성 지정
 	@RequestMapping(value = "/get1", method = { RequestMethod.GET, RequestMethod.POST })
 	public void get1() {
