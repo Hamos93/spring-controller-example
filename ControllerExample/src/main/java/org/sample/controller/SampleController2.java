@@ -20,8 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import lombok.extern.log4j.Log4j;
 
-// RestController 명시
-@RestController
+@RestController // RestController 명시
 @RequestMapping("/sample2")
 @Log4j
 public class SampleController2 {

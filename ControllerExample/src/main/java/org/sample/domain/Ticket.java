@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Ticket {
 	
-	private int tno;
+	private int no;
 	private String owner;
 	private String grade;
 }
